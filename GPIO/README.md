@@ -4,7 +4,7 @@
     
 2. Thêm timer
 
-    ![This is a alt text.](/image/SettingTimer.png "Setting Timer.")
+    ![This is a alt text.](image/SettingTimer.png "Setting Timer.").
 3. Bật tắt Led trong hàm `hal_entry`
 ```
     extern bsp_leds_t g_bsp_leds;
