@@ -29,6 +29,7 @@ void hal_entry(void)
         else{
             err = R_IOPORT_PinWrite(&g_ioport_ctrl, LEDS.p_leds[BSP_LED_LED1], BSP_IO_LEVEL_LOW);
             err = R_IOPORT_PinWrite(&g_ioport_ctrl, LEDS.p_leds[BSP_LED_LED3], BSP_IO_LEVEL_HIGH);
+
         }
     }
     /* TODO: add your own code here */
